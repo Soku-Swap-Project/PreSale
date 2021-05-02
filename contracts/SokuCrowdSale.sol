@@ -29,11 +29,11 @@ contract SokuCrowdsale is Crowdsale, Ownable {
      * @param _goal Funding goal
      */
     constructor(
-        uint256 _rate,            // rate, in Sokubits   12000 for $0.05 token price
+        uint256 _rate,            // rate, in Sokubits   12520 for $0.05 token price
         address payable _wallet,  // wallet to send BNB
         BEP20 _token,            // the token
-        uint256 _goal,           // the minimum goal, in wei   50e18 for $30,000
-        uint256 _cap             // // total cap, in wei     833.3333e18 for $500,000
+        uint256 _goal,           // the minimum goal, in wei   48e18 for $30,000
+        uint256 _cap             // // total cap, in wei     800e18 for $500,000
     )
         Crowdsale(_rate, _wallet, _token)
         public
