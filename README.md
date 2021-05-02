@@ -1,10 +1,10 @@
 # soku-token
-Soku governance token
+Soku Crowdsale
 
 
 # Install
 
-```Npm Install``
+```yarn install``
 
 # Compile and migrate
 
