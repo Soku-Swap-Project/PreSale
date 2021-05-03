@@ -69,11 +69,9 @@ contract Crowdsale is ReentrancyGuard {
    * @dev fallback function ***DO NOT OVERRIDE***
    */
   fallback() external payable {
-    buyTokens(msg.sender);
   }
 
   receive() external payable {
-    buyTokens(msg.sender);
   }
 
   /**
