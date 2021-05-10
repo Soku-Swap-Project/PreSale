@@ -1,5 +1,5 @@
 # soku-token
-Soku Crowdsale
+Soku Crowdsale Contracts
 
 
 # Install
